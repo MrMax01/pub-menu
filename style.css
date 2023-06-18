@@ -1,0 +1,44 @@
+body{
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container{
+    height: 100vh;
+}
+
+.menu-button{
+    width: 100%;
+    border: none;
+    text-align: left;
+    padding: 20px 5px;
+    cursor: pointer;
+}
+
+@keyframes slide-in {
+    0% {
+      transform: translatey(-100%);
+    }
+    100% {
+      transform: translatey(0);
+    }
+  }
+  
+  
+  @keyframes slide-out {
+      100% {
+          transform: translatey(-100%);
+        }
+        0% {
+            transform: translatey(0);
+        }
+    }
+    
+    .dropdown-content {
+      animation: slide-in 0.5s ease-out;
+    }
+
+    .fade-out{
+        animation: slide-out 1 ease-in;
+    }
+  
