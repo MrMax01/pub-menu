@@ -23,7 +23,7 @@ h3{
     text-align: left;
     padding: 10px;
     cursor: pointer;
-    margin-bottom: 20px;
+    margin-bottom: 0;
     border-radius: 10px;
     display: flex;
     justify-content: space-between;
@@ -36,6 +36,7 @@ ion-icon{
 
 .cocktails-list{
   display: none;
+  
 }
 
 .img-dimension{

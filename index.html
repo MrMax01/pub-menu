@@ -10,12 +10,13 @@
 <body>
 
     <div class="container">container
+        <!----------------------------COCKATIL CLASSICI-------------------->
         <div class="list"> 
-            <button class="menu-button js-cocktails-button" onclick="hundleArrow()">
+            <button class="menu-button js-cocktails-button" onclick="hundleArrow('.js-down0', '.js-arrow-up0');">
                 <img src="/assets/cocktails.jpg" alt="cockatails" class="img-dimension">
                 <h3>cockatail classici</h3>
-                <div class="arrow-up">
-                    <ion-icon name="chevron-down-outline" class="down"></ion-icon>
+                <div class="js-arrow-up0">
+                    <ion-icon name="chevron-down-outline" class="js-down0"></ion-icon>
                 </div>
 
             </button>
@@ -36,11 +37,62 @@
 
             </div>
         </div>
+        <br>
+        <!----------------------COCKTAIL ANALCOLICI--------------------------------->
+        <div class="list"> 
+            <button class="menu-button js-softDrink-button" onclick="hundleArrow('.js-down1', '.js-arrow-up1')">
+                <img src="/assets/cocktails.jpg" alt="cockatails" class="img-dimension">
+                <h3>non-alcoholic cocktails</h3>
+                <div class="js-arrow-up1">
+                    <ion-icon name="chevron-down-outline" class="js-down1"></ion-icon>
+                </div>
 
-        <div>
-            <button class="menu-button js-cocktails-button" onclick="openCloseCockatails()">cocktails</button>
+            </button>
 
-            <div class="js-cocktails-list dropdown-content"></div>
+            <div class="js-softDrink-list cocktails-list">
+                <h4>A.P. Ronik</h4>
+                <p>Acuqa tonica, aperol</p>
+                <hr>
+                <h4>Abbey</h4>
+                <p>Gin, succo di arancia</p>
+                <hr>
+                <h4>Acapulco gold colada</h4>
+                <p>Tequila, rum bianco Bacardi, crema di cocco, pompelmo, succo d'ananas</p>
+                <hr>
+                <h4>Adonis</h4>
+                <p>Dry sherry, vermouth rosso</p>
+
+
+            </div>
+        </div>
+        <br>
+
+        <!----------------------DRINKS--------------------------------->
+        <div class="list"> 
+            <button class="menu-button js-drink-button" onclick="hundleArrow('.js-down2', '.js-arrow-up2')">
+                <img src="/assets/cocktails.jpg" alt="cockatails" class="img-dimension">
+                <h3>soft drinks </h3>
+                <div class="js-arrow-up2">
+                    <ion-icon name="chevron-down-outline" class="js-down2"></ion-icon>
+                </div>
+
+            </button>
+
+            <div class="js-drink-list cocktails-list">
+                <h4>A.P. Ronik</h4>
+                <p>Acuqa tonica, aperol</p>
+                <hr>
+                <h4>Abbey</h4>
+                <p>Gin, succo di arancia</p>
+                <hr>
+                <h4>Acapulco gold colada</h4>
+                <p>Tequila, rum bianco Bacardi, crema di cocco, pompelmo, succo d'ananas</p>
+                <hr>
+                <h4>Adonis</h4>
+                <p>Dry sherry, vermouth rosso</p>
+
+
+            </div>
         </div>
     </div>
 
