@@ -1,19 +1,16 @@
-function openCloseCockatails(){
-    const divList = document.querySelector('.js-cocktails-list').innerHTML;
-    let html = '';
-    
-    if(divList.trim() === '' || divList === '<span class="fade-out"></span>'){
-        html = '<h4 class="dropdown-content">Negroni</h4> <p class="dropdown-content">bitter, qualcosa, qualcosa, qualcosa</p>';
-        document.querySelector('.js-cocktails-list').innerHTML= html;
+$(document).ready(function() {
+
+    $(".js-cocktails-button").click(function(){
+        $(".js-cocktails-list").slideToggle(900);
+    });
+
+});
+  
+function hundleArrow(){
+    const flag = document.querySelector('.down');
+    if(flag){
+        document.querySelector('.arrow-up').innerHTML = ' <ion-icon name="chevron-up-outline"></ion-icon>';
     }else{
-        html= '<span class="fade-out"></span>';
-        document.querySelector('.js-cocktails-list').innerHTML = html;
+        document.querySelector('.arrow-up').innerHTML = '<ion-icon name="chevron-down-outline" class="down"></ion-icon>'
     }
 }
-
-
-function toggleDropdown() {
-    const dropdown = document.querySelector('.dropdown');
-    dropdown.classList.toggle('open');
-  }
-  

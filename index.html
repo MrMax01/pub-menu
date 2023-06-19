@@ -1,18 +1,40 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css">
+        <script src="https://code.jquery.com/jquery-3.7.0.min.js" integrity="sha256-2Pmvv0kuTBOenSvLm6bvfBSSHrUJ+3A7x6P5Ebd07/g=" crossorigin="anonymous"></script>
     <title>Pub Menù</title>
 </head>
 <body>
 
     <div class="container">container
-        <div>
-            <button class="menu-button js-cocktails-button" onclick="openCloseCockatails()">cocktails</button>
+        <div class="list"> 
+            <button class="menu-button js-cocktails-button" onclick="hundleArrow()">
+                <img src="/assets/cocktails.jpg" alt="cockatails" class="img-dimension">
+                <h3>cockatail classici</h3>
+                <div class="arrow-up">
+                    <ion-icon name="chevron-down-outline" class="down"></ion-icon>
+                </div>
 
-            <div class="js-cocktails-list dropdown-content"></div>
+            </button>
+
+            <div class="js-cocktails-list cocktails-list">
+                <h4>A.P. Ronik</h4>
+                <p>Acuqa tonica, aperol</p>
+                <hr>
+                <h4>Abbey</h4>
+                <p>Gin, succo di arancia</p>
+                <hr>
+                <h4>Acapulco gold colada</h4>
+                <p>Tequila, rum bianco Bacardi, crema di cocco, pompelmo, succo d'ananas</p>
+                <hr>
+                <h4>Adonis</h4>
+                <p>Dry sherry, vermouth rosso</p>
+
+
+            </div>
         </div>
 
         <div>
@@ -23,5 +45,7 @@
     </div>
 
     <script src="menu.js"></script>
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
 </body>
 </html>
