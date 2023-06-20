@@ -1,31 +1,10 @@
 $(document).ready(function() {
-    /*CLASSIC COCKTAILS*/
-    $(".js-cocktails-button").click(function(){
-        $(".js-cocktails-list").slideToggle(900);
-    });
 
-    /* SOFT DRINKS */
-    $(".js-softDrink-button").click(function(){
-        $(".js-softDrink-list").slideToggle(900);
-    });
-
-
-    /* BEER */
-    $(".js-beer-button").click(function(){
-        $(".js-beer-list").slideToggle(900);
-    });
-
-    /* WINE */
-    $(".js-wine-button").click(function(){
-        $(".js-wine-list").slideToggle(900);
-    });
-
-    /* DRINKS */
-    $(".js-drink-button").click(function(){
-        $(".js-drink-list").slideToggle(900);
-    });
-
-
+    $(".js-toggle-button").click(function() {
+        var target = $(this).data("target");
+        $(target).slideToggle(900);
+      });
+      
 });
 
   
