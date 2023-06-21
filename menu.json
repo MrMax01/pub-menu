@@ -1,0 +1,127 @@
+
+[
+        {
+            "id": "hamburger",
+            "title": ["\"SPECIAL\" hamburger", "Chickenburger", "\"MEGA\" burger", "\"SUPER\" burger", "cheese-bacon burger", "Cheeseburger", "Hamburger", "Seitan Burger", "Vaggie burger"],
+            "content":[
+                "Bread, lettuce, mixed salad, pomarola, caramelized onion, aubergine in oil, lard, pecorino di Pienza and Swiss cheese from 200 g. Choose whether to enrich it with one or more of the extra ingredients offered",
+
+                "Bread, lettuce, tomato, cucumber mayonnaise, ketchup, onion, cheddar and grilled chicken breast. Choose if enrich it with one or more of the extra ingredients proposed", 
+
+                "Bread, San Marzano tomato, caciocavallo, friarielli capocollo, rocket, Swiss cheese 200 gr. Choose whether to enrich it with one or more of the proposed extra ingredients",
+
+                "Bread, fresh baby spinach, peppers, sun-dried tomatoes, cabbage, speck, fontina cheese and Swiss cheese 200 gr. Choose whether to enrich it with one or more of the proposed extra ingredients", 
+
+                "Bread, lettuce, tomato, cucumber, mayonnaise, ketchup, onion, 200g Swiss cheese, cheddar and silkworm. Choose if enrich it with one or more of the extra ingredien ts proposed", 
+
+                "200 gr bread, lettuce, tomato, cucumber, mayonnaise, ketchup, onion, cheddar and Swiss cheese. Choose whether to enrich it with one or more of the proposed extra ingredients", 
+
+                "Bread, lettuce, tomato, cucumber, mayonnaise, ketchup, onion and swiss 200 gr. Choose whether to enrich it with one or more than the proposed extra ingredients", 
+
+                "Bread, seitan burger, onion, cucumber, tomato, lettuce, ketcup and mayonnaise", 
+
+                "Bread, lettuce, tomato, cucumber, mayonnaise, ketchup, onion, grilled peppers and aubergines in oil. Choose if enrich it with one or more of the extra ingredients proposed"
+            ]
+        
+        },
+
+        {
+            "id": "cocktails",
+            "title": ["A.P. Ronik", "Abbey", "Acapulco gold colada", "Adonis", "Affinity", "Alexander", "Amaretto colada", "Amaretto sour", "Americano", "Angel face"],
+            "content": ["onic water, aperol", "Gin, orange juice", "Tequila, Bacardi white rum, cream of coconut, grapefruit, pineapple juice", "Dry sherry, red Vermouth", "Whisky, red Vermouth, dry Vermouth", "Brandy, dark cocoa cream, milk cream or liquid cream", "Bacardi white rum, pineapple juice, amaretto di Saronno, coconut cream", "amaretto di Saronno, lemon juice", "Bitter Campari, Red Vermouth, Soda water", "Gin, Apricot brandy, calvados"]
+        },
+
+        {
+            "id": "softDrinks",
+            "title": ["All Shook Up",
+            "Anita",
+            "Banshee",
+            "Bar Vienna",
+            "Bitter Sweet",
+            "Brown Horny Toad",
+            "Caffè Astoria",
+            "Caribbean Cocktail",
+            "Cool Passion",
+            "Cranberry Crush"],
+            "content": [                "Strawberries, Raspberries, Milk, Yogurt, Honey, Rose water",
+            "Orange Juice, Lemon Juice, Angostura, Soda",
+            "Banana cream, white cocoa cream, milk cream",
+            "Peach and mango juice, orange juice, pineapple juice, citron",
+            "Peach and mango juice, orange juice, pineapple juice, citron",
+            "Cinnamon, Cloves, Pineapple, Orange, Lemon, Grenadine, Sugar",
+            "Coffee, Milk, Pineapple Juice, Lemon Juice, Chocolate",
+            "Mango, Banana, Orange, Lime",
+            "Orange Juice, Passion Flower, Pineapple Juice, Lemonade",
+            "Cranberry Juice, Orange Juice, Water, Ginger, Spices, Sugar"]
+        },
+
+
+        {
+            "id": "beer",
+            "title": [ "Wührer",
+            "Tourtel",
+            "Theresianer Wit",
+            "Theresianer Winter Beer 2021",
+            "Theresianer Vienna",
+            "Theresianer Strong Ale",
+            "Raffo",
+            "Pferden",
+            "Light Peroni",
+            "Peroni Gran Riserva Rossa",
+            "Peroni Gran Riserva Puro Malto"],
+            "content": ["Typology: Lager Alcohol content: 4.70% Alc., Brewery: Birra Peroni Srl",
+            "Typology: Premium non-alcoholic lager, Brewery: Birra Peroni Srl",
+            "Typology: Unfiltered Wit, Alcohol content: 5.10% Alc.",
+            "Typology: Christmas beer, Alcohol content: 9.00% Alc.",
+            "Typology: Vienna, Alcohol content: 5.30% Alc.",
+            "Typology: Strong Ale, Alcohol content: 8.50% Alc.",
+            "Typology: Lager, Alcohol content: 4.70% Alc., Brewery: Birra Peroni Srl",
+            "Typology: Lager, Alcohol content: 5.00% Alc., Brewery: Birra Peroni Srl",
+            "Tipologia: Lager, Gradazione: 3.50 % Alc., Birrificio: Birra Peroni Srl",
+            "Typology: Vienna Style, Alcohol content: 5.20% Alc., Brewery: Birra Peroni Srl",
+            "Typology: Premium lager, Alcohol content: 5.20% Alc., Brewery: Birra Peroni Srl"]
+        },
+
+
+        {
+            "id": "wine",
+            "title": ["Avanà",
+            "Barbera",
+            "Bonarda Piemontese",
+            "Brachetto",
+            "Chatus",
+            "Croatina",
+            "Dolcetto",
+            "Doux d'Henry",
+            "Freisa",
+            "Grignolino",
+            "Malvasia di Schierano",
+            "Nebbiolo"],
+            "content": [null]
+        },
+
+
+        {
+            "id": "drinks",
+            "title":["Coca-cola",
+            "Coca-cola zero",
+            "Fanta",
+            "Sprite",
+            "Still water",
+            "Sparkling water"],
+            "content": [null]
+        },
+
+        {
+            "id": "coffee",
+            "title": ["Caffè espresso",
+            "Caffè americano",
+            "Caffè corretto",
+            "Caffè d'orozo",
+            "Caffè Ginseng",
+            "Cappuccio",
+            "Macchiato",
+            "Marocchino"],
+            "content": [null]
+        }
+]
