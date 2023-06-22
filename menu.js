@@ -7,7 +7,8 @@ $(document).ready(function() {
       
 });
 
-  
+
+
 function hundleArrow(down, arrowUp){
     const selector = down.slice(1);
     
@@ -23,7 +24,8 @@ function hundleArrow(down, arrowUp){
 
 
 
-/* PROVA */
+
+
 fetch('menu.json')
   .then(response => response.json())
   .then(data => {
