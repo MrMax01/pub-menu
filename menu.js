@@ -23,35 +23,22 @@ function hundleArrow(down, arrowUp){
 
 
 
-/*Carico il menu dal file json*/
+/* PROVA */
 fetch('menu.json')
   .then(response => response.json())
   .then(data => {
     // Utilizza l'oggetto JSON ottenuto
     //console.log(data);
-    data.forEach( element => {
+    data.menu.forEach(div => {
+        const section = document.getElementById(div.category.name);
+        
+        div.category.item.forEach((line) => {
+            const html = `<h4>${line.title}</h4>
+            <p>${line.content}</p><hr>`;
 
-        /*
-        data è un array di oggetti = {
-            id,
-            titile: [],
-            content: [],
-        }
-        */
-        const section = document.getElementById(element.id);
-
-        element.title.forEach((value, num)=>{
-            /*
-            -salvo l'html che inserirò nel div id = element.id
-            -  ogni titolo  verrà accostato in html con ogni content della medesima posizione
-            - se il content associato al titolo non c'è,  verrà messa una stringa vuota
-            */
-            const html = `<h4>${value}</h4>
-            <p>${element.content[num] || ''}</p>
-            <hr>`;
-
-            section.innerHTML += html;  
+            section.innerHTML += html;
         });
+        
     });
 
   })

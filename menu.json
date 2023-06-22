@@ -1,127 +1,476 @@
-
-[
+{
+    "menu":
+    [
         {
-            "id": "hamburger",
-            "title": ["\"SPECIAL\" hamburger", "Chickenburger", "\"MEGA\" burger", "\"SUPER\" burger", "cheese-bacon burger", "Cheeseburger", "Hamburger", "Seitan Burger", "Vaggie burger"],
-            "content":[
-                "Bread, lettuce, mixed salad, pomarola, caramelized onion, aubergine in oil, lard, pecorino di Pienza and Swiss cheese from 200 g. Choose whether to enrich it with one or more of the extra ingredients offered",
+            "category":
+            {
+                "name": "hamburger",
+                "item":
+                [
+                    {
+                        "id": "0",
+                        "title": "\"SPECIAL\" hamburger",
+                        "content":"Bread, lettuce, mixed salad, pomarola, caramelized onion, aubergine in oil, lard, pecorino di Pienza and Swiss cheese from 200 g. Choose whether to enrich it with one or more of the extra ingredients offered"
+                    },
+            
+                    {
+                        "id": "1",
+                        "titile": "Chickenburger",
+                        "content": "Bread, lettuce, tomato, cucumber mayonnaise, ketchup, onion, cheddar and grilled chicken breast. Choose if enrich it with one or more of the extra ingredients proposed"
+                    },
+                    
+                    {
+                        "id": "2",
+                        "title": "\"MEGA\" burger",
+                        "content": "Bread, San Marzano tomato, caciocavallo, friarielli capocollo, rocket, Swiss cheese 200 gr. Choose whether to enrich it with one or more of the proposed extra ingredients"
+    
+                    },
 
-                "Bread, lettuce, tomato, cucumber mayonnaise, ketchup, onion, cheddar and grilled chicken breast. Choose if enrich it with one or more of the extra ingredients proposed", 
+                    {
+                        "id": "3",
+                        "title": "\"SUPER\" burger",
+                        "content": "Bread, fresh baby spinach, peppers, sun-dried tomatoes, cabbage, speck, fontina cheese and Swiss cheese 200 gr. Choose whether to enrich it with one or more of the proposed extra ingredients"
+                    },
 
-                "Bread, San Marzano tomato, caciocavallo, friarielli capocollo, rocket, Swiss cheese 200 gr. Choose whether to enrich it with one or more of the proposed extra ingredients",
+                    {
+                        "id": "4",
+                        "title": "cheese-bacon burger",
+                        "content": "Bread, lettuce, tomato, cucumber, mayonnaise, ketchup, onion, 200g Swiss cheese, cheddar and silkworm. Choose if enrich it with one or more of the extra ingredien ts proposed"
+                    },
 
-                "Bread, fresh baby spinach, peppers, sun-dried tomatoes, cabbage, speck, fontina cheese and Swiss cheese 200 gr. Choose whether to enrich it with one or more of the proposed extra ingredients", 
+                    {
+                        "id": "5",
+                        "title": "Cheeseburger",
+                        "content": "200 gr bread, lettuce, tomato, cucumber, mayonnaise, ketchup, onion, cheddar and Swiss cheese. Choose whether to enrich it with one or more of the proposed extra ingredients"
+                    },
 
-                "Bread, lettuce, tomato, cucumber, mayonnaise, ketchup, onion, 200g Swiss cheese, cheddar and silkworm. Choose if enrich it with one or more of the extra ingredien ts proposed", 
+                    {
+                        "id": "6",
+                        "title": "Hamburger",
+                        "content": "Bread, lettuce, tomato, cucumber, mayonnaise, ketchup, onion and swiss 200 gr. Choose whether to enrich it with one or more than the proposed extra ingredients"
+                    },
 
-                "200 gr bread, lettuce, tomato, cucumber, mayonnaise, ketchup, onion, cheddar and Swiss cheese. Choose whether to enrich it with one or more of the proposed extra ingredients", 
+                    {
+                        "id": "7",
+                        "title": "Seitan Burger",
+                        "content": "Bread, seitan burger, onion, cucumber, tomato, lettuce, ketcup and mayonnaise"
+                    },
 
-                "Bread, lettuce, tomato, cucumber, mayonnaise, ketchup, onion and swiss 200 gr. Choose whether to enrich it with one or more than the proposed extra ingredients", 
-
-                "Bread, seitan burger, onion, cucumber, tomato, lettuce, ketcup and mayonnaise", 
-
-                "Bread, lettuce, tomato, cucumber, mayonnaise, ketchup, onion, grilled peppers and aubergines in oil. Choose if enrich it with one or more of the extra ingredients proposed"
-            ]
-        
+                    {
+                        "id":"8",
+                        "title": "Vaggie burger",
+                        "content": "Bread, lettuce, tomato, cucumber, mayonnaise, ketchup, onion, grilled peppers and aubergines in oil. Choose if enrich it with one or more of the extra ingredients proposed"
+                    }
+                ]
+            }
         },
 
         {
-            "id": "cocktails",
-            "title": ["A.P. Ronik", "Abbey", "Acapulco gold colada", "Adonis", "Affinity", "Alexander", "Amaretto colada", "Amaretto sour", "Americano", "Angel face"],
-            "content": ["onic water, aperol", "Gin, orange juice", "Tequila, Bacardi white rum, cream of coconut, grapefruit, pineapple juice", "Dry sherry, red Vermouth", "Whisky, red Vermouth, dry Vermouth", "Brandy, dark cocoa cream, milk cream or liquid cream", "Bacardi white rum, pineapple juice, amaretto di Saronno, coconut cream", "amaretto di Saronno, lemon juice", "Bitter Campari, Red Vermouth, Soda water", "Gin, Apricot brandy, calvados"]
+            "category":
+            {
+                "name": "cocktails",
+
+                "item":
+                [
+                    {
+                        "id": "9",
+                        "title": "A.P. Ronik",
+                        "content": "onic water, aperol"
+                    },
+
+                    {
+                        "id": "10",
+                        "title": "Abbey",
+                        "content": "Gin, orange juice"
+                    },
+
+                    {
+                        "id": "11",
+                        "title": "Acapulco gold colada",
+                        "content": "Tequila, Bacardi white rum, cream of coconut, grapefruit, pineapple juice"
+                    },
+
+                    {
+                        "id": "12",
+                        "title": "Adonis",
+                        "content": "Dry sherry, red Vermouth"
+                    },
+
+                    {
+                        "id": "13",
+                        "titile": "Affinity",
+                        "content": "Whisky, red Vermouth, dry Vermouth"
+                    },
+
+                    {
+                        "id": "14",
+                        "title": "Alexander",
+                        "content": "Brandy, dark cocoa cream, milk cream or liquid cream"
+                    },
+
+                    {
+                        "id": "15",
+                        "title": "Amaretto colada",
+                        "content": "Bacardi white rum, pineapple juice, amaretto di Saronno, coconut cream"
+                    },
+
+                    {
+                        "id": "16",
+                        "title": "Amaretto sour",
+                        "content": "amaretto di Saronno, lemon juice"
+                    },
+
+                    {
+                        "id": "17",
+                        "title": "Americano",
+                        "content": "Bitter Campari, Red Vermouth, Soda water"
+                    },
+
+                    {
+                        "id": "18",
+                        "title": "Angel face",
+                        "content": "Gin, Apricot brandy, calvados"
+                    }
+                ]
+            }
+
+    
         },
 
         {
-            "id": "softDrinks",
-            "title": ["All Shook Up",
-            "Anita",
-            "Banshee",
-            "Bar Vienna",
-            "Bitter Sweet",
-            "Brown Horny Toad",
-            "Caffè Astoria",
-            "Caribbean Cocktail",
-            "Cool Passion",
-            "Cranberry Crush"],
-            "content": [                "Strawberries, Raspberries, Milk, Yogurt, Honey, Rose water",
-            "Orange Juice, Lemon Juice, Angostura, Soda",
-            "Banana cream, white cocoa cream, milk cream",
-            "Peach and mango juice, orange juice, pineapple juice, citron",
-            "Peach and mango juice, orange juice, pineapple juice, citron",
-            "Cinnamon, Cloves, Pineapple, Orange, Lemon, Grenadine, Sugar",
-            "Coffee, Milk, Pineapple Juice, Lemon Juice, Chocolate",
-            "Mango, Banana, Orange, Lime",
-            "Orange Juice, Passion Flower, Pineapple Juice, Lemonade",
-            "Cranberry Juice, Orange Juice, Water, Ginger, Spices, Sugar"]
-        },
+            "category":
+            {
+                "name":"softDrinks",
+                "item": 
+                [
+                    
+                    {
+                        "id": "19",
+                        "title": "All Shook Up",
+                        "content": "Strawberries, Raspberries, Milk, Yogurt, Honey, Rose water"
+                    },
 
+                    {
+                        "id": "20",
+                        "title": "Anita",
+                        "content": "Orange Juice, Lemon Juice, Angostura, Soda"
+                    },
 
-        {
-            "id": "beer",
-            "title": [ "Wührer",
-            "Tourtel",
-            "Theresianer Wit",
-            "Theresianer Winter Beer 2021",
-            "Theresianer Vienna",
-            "Theresianer Strong Ale",
-            "Raffo",
-            "Pferden",
-            "Light Peroni",
-            "Peroni Gran Riserva Rossa",
-            "Peroni Gran Riserva Puro Malto"],
-            "content": ["Typology: Lager Alcohol content: 4.70% Alc., Brewery: Birra Peroni Srl",
-            "Typology: Premium non-alcoholic lager, Brewery: Birra Peroni Srl",
-            "Typology: Unfiltered Wit, Alcohol content: 5.10% Alc.",
-            "Typology: Christmas beer, Alcohol content: 9.00% Alc.",
-            "Typology: Vienna, Alcohol content: 5.30% Alc.",
-            "Typology: Strong Ale, Alcohol content: 8.50% Alc.",
-            "Typology: Lager, Alcohol content: 4.70% Alc., Brewery: Birra Peroni Srl",
-            "Typology: Lager, Alcohol content: 5.00% Alc., Brewery: Birra Peroni Srl",
-            "Tipologia: Lager, Gradazione: 3.50 % Alc., Birrificio: Birra Peroni Srl",
-            "Typology: Vienna Style, Alcohol content: 5.20% Alc., Brewery: Birra Peroni Srl",
-            "Typology: Premium lager, Alcohol content: 5.20% Alc., Brewery: Birra Peroni Srl"]
-        },
+                    {
+                        "id": "21",
+                        "title": "Banshee",
+                        "content": "Banana cream, white cocoa cream, milk cream"
+                    },
 
+                    {
+                        "id": "22",
+                        "title": "Bar Vienna",
+                        "content": "Peach and mango juice, orange juice, pineapple juice, citron"
 
-        {
-            "id": "wine",
-            "title": ["Avanà",
-            "Barbera",
-            "Bonarda Piemontese",
-            "Brachetto",
-            "Chatus",
-            "Croatina",
-            "Dolcetto",
-            "Doux d'Henry",
-            "Freisa",
-            "Grignolino",
-            "Malvasia di Schierano",
-            "Nebbiolo"],
-            "content": [null]
-        },
+                    },
 
+                    {
+                        "id": "23",
+                        "title": "Bitter Sweet",
+                        "content": "Peach and mango juice, orange juice, pineapple juice, citron"
+                    },
 
-        {
-            "id": "drinks",
-            "title":["Coca-cola",
-            "Coca-cola zero",
-            "Fanta",
-            "Sprite",
-            "Still water",
-            "Sparkling water"],
-            "content": [null]
+                    {
+                        "id": "24",
+                        "title": "Brown Horny Toad",
+                        "content": "Cinnamon, Cloves, Pineapple, Orange, Lemon, Grenadine, Sugar"
+                    },
+
+                    {
+                        "id": "25",
+                        "title": "Caffè Astoria",
+                        "content": "Coffee, Milk, Pineapple Juice, Lemon Juice, Chocolate"
+
+                    },
+
+                    {
+                        "id": "26",
+                        "title": "Caribbean Cocktail",
+                        "content": "Mango, Banana, Orange, Lime"
+                    },
+
+                    {
+                        "id": "27",
+                        "title": "Cool Passion",
+                        "content": "Orange Juice, Passion Flower, Pineapple Juice, Lemonade"
+                    },
+
+                    {
+                        "id": "28",
+                        "title": "Cranberry Crush",
+                        "content": "Cranberry Juice, Orange Juice, Water, Ginger, Spices, Sugar"
+                    }
+                ]
+
+            }
         },
 
         {
-            "id": "coffee",
-            "title": ["Caffè espresso",
-            "Caffè americano",
-            "Caffè corretto",
-            "Caffè d'orozo",
-            "Caffè Ginseng",
-            "Cappuccio",
-            "Macchiato",
-            "Marocchino"],
-            "content": [null]
+            "category":
+            {
+                "name": "beer",
+                "item": 
+                [
+                    {
+                        "id": "29",
+                        "title": "Wührer",
+                        "content": "Typology: Lager Alcohol content: 4.70% Alc., Brewery: Birra Peroni Srl"
+                    },
+
+                    {
+                        "id": "30", 
+                        "title": "Tourtel",
+                        "content": "Typology: Premium non-alcoholic lager, Brewery: Birra Peroni Srl"
+                    },
+
+                    {
+                        "id": "31",
+                        "title": "Theresianer Wit",
+                        "content": "Typology: Unfiltered Wit, Alcohol content: 5.10% Alc."
+                    },
+
+                    {
+                        "id": "32",
+                        "title": "Theresianer Winter Beer 2021",
+                        "content": "Typology: Christmas beer, Alcohol content: 9.00% Alc."
+                    },
+
+                    {
+                        "id": "33",
+                        "title": "Theresianer Vienna",
+                        "content": "Typology: Vienna, Alcohol content: 5.30% Alc."
+                    },
+
+                    {
+                        "id": "34",
+                        "title": "Theresianer Strong Ale",
+                        "content": "Typology: Strong Ale, Alcohol content: 8.50% Alc."
+                    },
+
+                    {
+                        "id": "35",
+                        "title": "Raffo",
+                        "content": "Typology: Lager, Alcohol content: 4.70% Alc., Brewery: Birra Peroni Srl"
+                    },
+
+                    {
+                        "id": "36",
+                        "title": "Pferden",
+                        "content": "Typology: Lager, Alcohol content: 5.00% Alc., Brewery: Birra Peroni Srl"
+                    },
+
+                    {
+                        "id": "37",
+                        "title": "Light Peroni",
+                        "content": "Tipologia: Lager, Gradazione: 3.50 % Alc., Birrificio: Birra Peroni Srl"
+                    },
+
+                    {
+                        "id": "38",
+                        "title": "Peroni Gran Riserva Rossa",
+                        "content": "Typology: Vienna Style, Alcohol content: 5.20% Alc., Brewery: Birra Peroni Srl"
+                    },
+
+                    {
+                        "id": "39",
+                        "title": "Peroni Gran Riserva Puro Malto",
+                        "content": "Typology: Premium lager, Alcohol content: 5.20% Alc., Brewery: Birra Peroni Srl"
+                    }
+                ]
+            }
+        },
+
+        {
+            "category":
+            {
+                "name": "wine",
+                "item":
+                [
+                    {
+                        "id": "40",
+                        "title": "Avanà",
+                        "content": ""
+                    },
+
+                    {
+                        "id": "41",
+                        "title": "Barbera",
+                        "content": ""
+                    },
+
+                    {
+                        "id": "42",
+                        "title": "Bonarda Piemontese",
+                        "content": ""
+                    },
+
+                    {
+                        "id": "43",
+                        "title": "Brachetto",
+                        "content": ""
+                    },
+
+                    {
+                        "id": "44",
+                        "title": "Chatus",
+                        "content": ""
+                    },
+
+                    {
+                        "id": "45",
+                        "title": "Croatina",
+                        "content": ""
+                    },
+
+                    {
+                        "id": "46",
+                        "title": "Dolcetto",
+                        "content": ""
+                    },
+
+                    {
+                        "id": "47",
+                        "title": "Doux d'Henry",
+                        "content": ""
+                    },
+
+                    {
+                        "id": "48",
+                        "title": "Freisa",
+                        "content": ""
+                    },
+
+                    {
+                        "id": "49",
+                        "title": "Grignolino",
+                        "content": ""
+                    },
+
+                    {
+                        "id": "50",
+                        "title": "Malvasia di Schierano",
+                        "content": ""
+                    },
+
+                    {
+                        "id": "51",
+                        "title": "Nebbiolo",
+                        "content": ""
+                    }
+
+                    
+                ]
+            }
+        },
+
+        {
+            "category":
+            {
+                "name": "drinks",
+                "item": 
+                [
+                    {
+                        "id": "52",
+                        "title": "Coca-cola",
+                        "content": ""
+                    },
+
+                    {
+                        "id": "53",
+                        "title": "Coca-cola zero",
+                        "content": ""
+                    },
+
+                    {
+                        "id": "54",
+                        "title": "Fanta",
+                        "content": ""
+                    },
+
+                    {
+                        "id": "55",
+                        "title": "Sprite",
+                        "content": ""
+                    },
+
+                    {
+                        "id": "56",
+                        "title": "Still water",
+                        "content": ""
+                    },
+
+                    {
+                        "id": "57",
+                        "title": "Sparkling water",
+                        "content": ""
+                    }
+                ]
+            }
+        },
+
+        {
+            "category":
+            {
+                "name": "coffee",
+                "item":
+                [
+                    {
+                        "id": "58",
+                        "title": "Caffè espresso",
+                        "content": ""
+                    },
+
+                    {
+                        "id": "59",
+                        "title": "Caffè americano",
+                        "content": ""
+                    },
+
+                    {
+                        "id": "60",
+                        "title": "Caffè corretto",
+                        "content": ""
+                    },
+
+                    {
+                        "id": "61",
+                        "title": "Caffè d'orzo",
+                        "content": ""
+                    },
+
+                    {
+                        "id": "62",
+                        "title": "Caffè ginseng",
+                        "content": ""
+                    },
+
+                    {
+                        "id": "63",
+                        "title": "Cappuccio",
+                        "content": ""
+                    },
+
+                    {
+                        "id": "64",
+                        "title": "Macchiato",
+                        "content": ""
+                    },
+
+                    {
+                        "id": "65",
+                        "title": "Marocchino",
+                        "content": ""
+                    }
+
+
+                
+                ]
+            }
         }
-]
+    ]
+}
